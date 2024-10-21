@@ -28,11 +28,11 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ls="ls -lAh --color=auto"
 alias ip="ip -c"
-
+alias myip="curl ifconfig.me"
 alias dna="/usr/bin/dig +noall +answer"
 alias ds="/usr/bin/dig +short"
 
-alias gcb='git branch | fzf | cut -c 3- | xargs git checkout'
+alias gcb="git branch | fzf | cut -c 3- | xargs git checkout"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias GH="cd ~/documents/github"
